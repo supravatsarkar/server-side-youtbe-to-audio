@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/getYoutubeToAudio', async (req, res) => {
-    console.log('api key', process.env.RAPID_API_HOST, process.env.API_KEY);
+    // console.log('api key', process.env.RAPID_API_HOST, process.env.API_KEY);
     const videoId = req.body.videoId;
     console.log(videoId);
     const options = {
